@@ -76,7 +76,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/ca10e459bc6f48a4ad0f7.jpg",
+        photo ="https://telegra.ph/file/3d11a7e85f456bba7941e.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [ADARSH GOEL](https://github.com/adarsh-goel/-pro/issues).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [ADARSH GOEL](https://t.me/GODxAYANOKOUJI).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -128,8 +128,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://github.com/adarsh-goel")],
-                [InlineKeyboardButton("💥 Source Code", url="https://github.com/adarsh-goel/-pro/")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/GODxAYANOKOUJI")],
+                [InlineKeyboardButton("💥 Support Group", url="https://t.me/AaravSupportGroup")]
             ]
         )
     )
